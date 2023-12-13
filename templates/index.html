@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <script type="module" src="static/main.js"></script>
 </head>
 <body>
-    <input type="text" id="tree-values" placeholder="Enter tree values separated by commas">
-    <button id="draw-btn">Draw Tree</button>
-    <div id="tree-container"></div>
+<input type="text" id="tree-values" placeholder="Enter tree values separated by commas">
+<button id="draw-btn">Draw Tree</button>
+<div id="tree-container"></div>
 </body>
 </html>

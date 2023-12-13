@@ -22,7 +22,7 @@ To run this project locally, you'll need to have Python and Node.js installed. F
 `pip install -r requirements.txt`
 
 4. Install the required Node.js packages:
-npm install
+`npm install`
 
 ## Usage
 
